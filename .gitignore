@@ -92,3 +92,4 @@ sw.*
 .env.local
 .env.development
 .env.*.local
+/components/Footer.vue
