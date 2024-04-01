@@ -12,29 +12,25 @@
             <a v-if="this.$config.axios.facebook && this.$config.axios.facebook !== ''"
                class="footer__social-item"
                :href="`https://facebook.com/${this.$config.axios.facebook}`">
-              <span><img width="10" src="/public/img/facebook.svg" /></span>
-              <!-- {{ this.$config.axios.facebook }} -->
+              <span><img width="10" src="/public/img/facebook.svg" /></span>             
               Facebook
               </a>
             <a v-if="this.$config.axios.twitter && this.$config.axios.twitter !== ''"
                class="footer__social-item"
                :href="`https://twitter.com/${this.$config.axios.twitter}`">
-              <span><img width="10" src="/public/img/twitter.svg" /></span>
-              <!--{{ this.$config.axios.twitter }}-->
+              <span><img width="10" src="/public/img/twitter.svg" /></span>              
               Twitter
             </a>
             <a v-if="this.$config.axios.telegram && this.$config.axios.telegram !== ''"
                class="footer__social-item"
                :href="`https://t.me/${this.$config.axios.telegram}`">
-              <span><img width="15" src="/public/img/telegram.svg" /></span>
-              <!--{{ this.$config.axios.telegram }}-->
+              <span><img width="15" src="/public/img/telegram.svg" /></span>              
               Telegram
             </a>
             <a v-if="this.$config.axios.linkedin && this.$config.axios.linkedin !== ''"
                class="footer__social-item"
                :href="`https://linkedin.com/company/${this.$config.axios.linkedin}`">
-              <span><img width="15" src="/public/img/linkedin.svg" /></span>
-              <!--{{ this.$config.axios.linkedin }}-->
+              <span><img width="15" src="/public/img/linkedin.svg" /></span>              
               Linkedin
             </a>
             </div>
