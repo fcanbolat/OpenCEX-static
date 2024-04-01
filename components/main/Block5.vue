@@ -16,19 +16,19 @@
             class="socials">
             <a v-if="this.$config.axios.twitter" :href="`https://twitter.com/${this.$config.axios.twitter}`" class="social-tw">
               <img src="/img/1.png" />
-              <span>{{this.$config.axios.twitter}}</span>
+              <span>Twitter</span>
             </a>
             <a v-if="this.$config.axios.telegram" :href="`https://t.me/${this.$config.axios.telegram}`" class="social-tg">
               <img src="/img/2.png" />
-              <span>{{this.$config.axios.telegram}}</span>
+              <span>Telegram</span>
             </a>
             <a v-if="this.$config.axios.facebook" :href="`https://facebook.com/${this.$config.axios.facebook}`" class="social-fb">
               <img src="/img/3.png" />
-              <span>{{this.$config.axios.facebook}}</span>
+              <span>Facebook</span>
             </a>
             <a v-if="this.$config.axios.linkedin" :href="`https://linkedin.com/company/${this.$config.axios.linkedin}`" class="social-ld">
               <img src="/img/4.png" />
-              <span>{{this.$config.axios.linkedin}}</span>
+              <span>Linkedin</span>
             </a>
           </div>
         </div>
