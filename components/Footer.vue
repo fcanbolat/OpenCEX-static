@@ -13,28 +13,28 @@
                class="footer__social-item"
                :href="`https://facebook.com/${this.$config.axios.facebook}`">
               <span><img width="10" src="/public/img/facebook.svg" />Facebook</span>
-              {{ this.$config.axios.facebook }}
+              
               
               </a>
             <a v-if="this.$config.axios.twitter && this.$config.axios.twitter !== ''"
                class="footer__social-item"
                :href="`https://twitter.com/${this.$config.axios.twitter}`">
               <span><img width="10" src="/public/img/twitter.svg" />Twitter</span>
-              {{ this.$config.axios.twitter }}
+              
               
             </a>
             <a v-if="this.$config.axios.telegram && this.$config.axios.telegram !== ''"
                class="footer__social-item"
                :href="`https://t.me/${this.$config.axios.telegram}`">
               <span><img width="15" src="/public/img/telegram.svg" />Telegram</span>
-              {{ this.$config.axios.telegram }}
+              
               
             </a>
             <a v-if="this.$config.axios.linkedin && this.$config.axios.linkedin !== ''"
                class="footer__social-item"
                :href="`https://linkedin.com/company/${this.$config.axios.linkedin}`">
               <span><img width="15" src="/public/img/linkedin.svg" />Linkedin</span>
-              {{ this.$config.axios.linkedin }}
+              
               
             </a>
             </div>
