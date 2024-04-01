@@ -12,7 +12,7 @@
             <a v-if="this.$config.axios.facebook && this.$config.axios.facebook !== ''"
                class="footer__social-item"
                :href="`https://facebook.com/${this.$config.axios.facebook}`">
-              <span><img width="10" src="/public/img/facebook.svg" /></span>
+              <span><img width="10" src="/public/img/facebook.svg" />Facebook</span>
               {{ this.$config.axios.facebook }}
               
               </a>
